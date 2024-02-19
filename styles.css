@@ -1,0 +1,28 @@
+.board {
+  border-width: 2px 0 0 2px;
+  display: flex;
+  width: 306px;
+  margin: 0 auto;
+}
+.square {
+  border-width: 0 2px 2px 0;
+  aspect-ratio: 1;
+  width: 100px;
+}
+.board .square {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: xxx-large;
+}
+
+.board,
+.board .square {
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.3);
+}
+
+#header,
+#winner {
+  text-align: center;
+}
